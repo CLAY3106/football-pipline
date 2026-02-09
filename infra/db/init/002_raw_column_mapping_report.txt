@@ -1,0 +1,101 @@
+
+# appearances.csv -> raw.appearances
+gameID -> gameid
+playerID -> playerid
+goals -> goals
+ownGoals -> owngoals
+shots -> shots
+xGoals -> xgoals
+xGoalsChain -> xgoalschain
+xGoalsBuildup -> xgoalsbuildup
+assists -> assists
+keyPasses -> keypasses
+xAssists -> xassists
+position -> position
+positionOrder -> positionorder
+yellowCard -> yellowcard
+redCard -> redcard
+time -> time
+substituteIn -> substitutein
+substituteOut -> substituteout
+leagueID -> leagueid
+
+# games.csv -> raw.games
+gameID -> gameid
+leagueID -> leagueid
+season -> season
+date -> date
+homeTeamID -> hometeamid
+awayTeamID -> awayteamid
+homeGoals -> homegoals
+awayGoals -> awaygoals
+homeProbability -> homeprobability
+drawProbability -> drawprobability
+awayProbability -> awayprobability
+homeGoalsHalfTime -> homegoalshalftime
+awayGoalsHalfTime -> awaygoalshalftime
+B365H -> b365h
+B365D -> b365d
+B365A -> b365a
+BWH -> bwh
+BWD -> bwd
+BWA -> bwa
+IWH -> iwh
+IWD -> iwd
+IWA -> iwa
+PSH -> psh
+PSD -> psd
+PSA -> psa
+WHH -> whh
+WHD -> whd
+WHA -> wha
+VCH -> vch
+VCD -> vcd
+VCA -> vca
+PSCH -> psch
+PSCD -> pscd
+PSCA -> psca
+
+# leagues.csv -> raw.leagues
+leagueID -> leagueid
+name -> name
+understatNotation -> understatnotation
+
+# players.csv -> raw.players
+playerID -> playerid
+name -> name
+
+# shots.csv -> raw.shots
+gameID -> gameid
+shooterID -> shooterid
+assisterID -> assisterid
+minute -> minute
+situation -> situation
+lastAction -> lastaction
+shotType -> shottype
+shotResult -> shotresult
+xGoal -> xgoal
+positionX -> positionx
+positionY -> positiony
+
+# teams.csv -> raw.teams
+teamID -> teamid
+name -> name
+
+# teamstats.csv -> raw.teamstats
+gameID -> gameid
+teamID -> teamid
+season -> season
+date -> date
+location -> location
+goals -> goals
+xGoals -> xgoals
+shots -> shots
+shotsOnTarget -> shotsontarget
+deep -> deep
+ppda -> ppda
+fouls -> fouls
+corners -> corners
+yellowCards -> yellowcards
+redCards -> redcards
+result -> result

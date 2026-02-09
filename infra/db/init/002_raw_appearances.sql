@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS raw.appearances (
+    gameid TEXT,
+    playerid TEXT,
+    goals TEXT,
+    owngoals TEXT,
+    shots TEXT,
+    xgoals TEXT,
+    xgoalschain TEXT,
+    xgoalsbuildup TEXT,
+    assists TEXT,
+    keypasses TEXT,
+    xassists TEXT,
+    position TEXT,
+    positionorder TEXT,
+    yellowcard TEXT,
+    redcard TEXT,
+    time TEXT,
+    substitutein TEXT,
+    substituteout TEXT,
+    leagueid TEXT
+);

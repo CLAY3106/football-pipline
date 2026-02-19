@@ -20,6 +20,7 @@ The focus so far is on **data ingestion setup** and **raw-layer schema generatio
 - Reproducible SQL initialization scripts
 
 ## Project Structure
+```
 football-pipeline/
 ├─ data/
 │  └─ raw/ # Kaggle CSV datasets
@@ -33,6 +34,7 @@ football-pipeline/
 │  └─ generate_raw_sql_all.py # Generate raw-layer SQL automatically
 ├─ requirements.txt
 └─ README.md
+```
 
 ## Infrastructure
 ### Database
